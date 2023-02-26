@@ -1,0 +1,11 @@
+@import "tailwind.css";
+@import "./theme/theme.css";
+
+body{
+    font-family: "Inter", "sans-serif";
+    line-height: 140%;
+}
+
+.todo-grid{
+    grid-template-columns: auto 1fr auto;
+}
